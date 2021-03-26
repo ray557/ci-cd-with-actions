@@ -1,3 +1,5 @@
+[![Node.js CI](https://github.com/ray557/ci-cd-with-actions/actions/workflows/React%20App%20CI.yml/badge.svg)](https://github.com/ray557/ci-cd-with-actions/actions/workflows/React%20App%20CI.yml)
+
 <h1 align="center">CI/CD with GitHub Actions</h1>
 <h5 align="center">@kmkumaran @kaverma</h3>
 
@@ -23,3 +25,4 @@
 - [GitHub Docs: GitHub Packages](https://docs.github.com/packages)
 
 ## [Click here to get started with the workshop](workshop/workshop_instructions1.md)
+

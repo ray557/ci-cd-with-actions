@@ -5,15 +5,15 @@ name: Node.js CI
 
 on:
   push:
-    branches: [ main ]
+    branches: [ main, releases ]
   pull_request:
-    branches: [ main ]
+    branches: [ main, releases ]
 
 jobs:
-  build:
-
+  build-test:
+    name: Build and Test
     runs-on: ubuntu-latest
-
+    
     strategy:
       matrix:
         node-version: [10.x, 12.x, 14.x, 15.x]
